@@ -13,7 +13,7 @@ from .reference import Reference
 ROUTES_FOLDER = Path().absolute().joinpath("routes")
 
 
-def routes() -> Generator[ModuleType, None, None]:
+def routes() -> Generator[ModuleType]:
     """Finds, imports and returns the modules in the routes folder"""
     for route_path in ROUTES_FOLDER.glob("*.py"):
         yield import_module(str(route_path))

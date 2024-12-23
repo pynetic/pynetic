@@ -134,4 +134,5 @@ Although there will be means to include JavaScript into the bundle, and means to
 - (Like References) Event functions are defined at local scope at runtime therefore if a function applies to 2 or more events, they can be imported and used wherever needed.
 
 [^1]: https://stackoverflow.com/questions/1230233/how-to-find-the-sum-of-an-array-of-numbers
+
 [^2]: https://stackoverflow.com/questions/4362586/sum-a-list-of-numbers-in-python
